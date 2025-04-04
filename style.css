@@ -1,0 +1,35 @@
+body {
+    background-image: url('https://i.pinimg.com/originals/e3/eb/31/e3eb311af2c90bd23b9b44d4c8353aa9.gif');
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    margin: 0; 
+}
+body{
+    font-family: FreeMono, monospace;
+}
+h1{
+    font-family: FreeMono, monospace;    
+}
+.minha_foto {
+    width: 25%;
+    border: 5px #ffffff solid;
+    box-sizing: border-box;
+    display: block;
+    margin: 20px auto 0 auto; 
+    border-radius: 20em;
+}
+.espaco {
+    text-align: center;
+}
+span{
+    background: limegreen;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 5px;
+    text-align: center; 
+    font-family: FreeMono, monospace;
+    font-size: large;
+}
+
