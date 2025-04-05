@@ -3,7 +3,7 @@ body {
     background-size: cover;  
     background-position: center; 
     background-repeat: no-repeat; 
-    height: 100vh; 
+    height: 200vh; 
     margin: 0; 
 }
 body{
@@ -24,7 +24,7 @@ h1{
     text-align: center;
 }
 span{
-    background: limegreen;
+    background: rgb(255, 255, 255);
     border-radius: 5px;
     margin: 2px;
     padding: 5px;
@@ -33,3 +33,36 @@ span{
     font-size: large;
 }
 
+.main{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin: 50px;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 700px;
+    border-radius: 10px;
+    text-align: center;
+}
+.card>h1{
+    padding-top: 1px;
+}
+.card>p{
+    font-family: poppins;
+}
+.btn{
+    font-size: 17;
+    padding: 10px 50px;
+    border: none;
+
+}
+.card>img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
